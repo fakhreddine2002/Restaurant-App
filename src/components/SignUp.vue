@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <img class="logo" src="../assets/the-red-cafe.jpg" alt="">
-        <h1>Sign Up</h1>
+        <h1>Sign Upggg</h1>
         <div class="register">
             <input type="text" v-model="name" placeholder="Enter Name">
             <input type="text" v-model="email" placeholder="Enter Email">
