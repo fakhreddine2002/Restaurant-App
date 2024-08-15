@@ -15,7 +15,6 @@
 
 <style>
 body {
-    background-color: black;
     margin: 0;
     padding: 0;
     position: relative;
@@ -32,27 +31,40 @@ body::before {
     bottom: 0;
     background-image: url("/restaurant image.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 99%;
+    background-size: 100% 110%;
     background-position: center;
-    filter: blur(8px); /* Adds blur to the background image */
-    z-index: -1; /* Places the blurred image behind the content */
+    filter: blur(5px);
+    z-index: -1;
 }
 
 #container {
-    background-color: aqua;
-    opacity: 30%;
-    width: 100%;
+    margin-top: 20px;
+    width: 50%;
     height: 50px;
     display: flex;
+    border: 3px solid white;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 60px;
     border-radius: 30px;
     position: relative;
-    z-index: 1; /* Ensures the header is above the blurred background */
+    z-index: 1;
+    transition: color 1s ease-in-out; /* Smooth transition for border gradient */
+}
+
+#container:hover {
+    border-radius: 30px;
+    border-color: aqua; /* Gradient effect on border */
 }
 
 #container a {
     text-decoration: none;
+    color: white;
+    transition: color 0.4s ease-in-out; /* Smooth transition for text color */
+}
+
+#container a:hover {
+    color: red;
 }
 </style>
