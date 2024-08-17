@@ -9,10 +9,10 @@
 </template>
 
 <style>
-      .logo{
+    .logo{
         width: 250px;
     }
-    .register input {
+    .register input , .add input {
         width: 300px;
         height: 40px;
         padding-left: 20px;
@@ -22,10 +22,10 @@
         margin-left: auto;
         border : 1px solid skyblue;
     }
-    .register button:hover{
+    .register button:hover,.addbutton:hover{
         background-color: blue;
     }
-    .register button{
+    .register button , .addbutton{
         width: 320px;
         height: 40px;
         border: 1px solid skyblue;

@@ -24,5 +24,49 @@
       "email": "zszs",
       "password": "zszsz"
     }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "7oudhaifa",
+      "contact": 98452301,
+      "address": "khniss 9odam lycéé"
+    },
+    {
+      "id": 2,
+      "name": "wa2il",
+      "contact": 94576135,
+      "address": "tri9 9siba monastir"
+    },
+    {
+      "id": 3,
+      "name": "il 9arwi",
+      "contact": 94359786,
+      "address": "ba7dha amira"
+    },
+    {
+      "id": 4,
+      "name": "naoufil",
+      "contact": 21659843,
+      "address": "rond point bimbla khniss"
+    },
+    {
+      "id": 5,
+      "name": "mr pop",
+      "contact": 56813764,
+      "address": "ba7dha kiosque il mourabou , monastir"
+    },
+    {
+      "id": "78f8",
+      "name": "ddddddddddd",
+      "contact": "ddddddddd",
+      "address": "ddddddddddddd"
+    },
+    {
+      "id": "fbdf",
+      "name": "zmfkmezlf",
+      "contact": "dedezdez",
+      "address": "medmezkd"
+    }
   ]
 }
